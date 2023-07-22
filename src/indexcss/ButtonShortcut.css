@@ -1,0 +1,46 @@
+/* ButtonShortcut.css */
+
+.shortcuts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .shortcut-github {
+    display: flex; /* Adicionado para centralizar o ícone horizontalmente */
+    align-items: center; /* Adicionado para centralizar o ícone verticalmente */
+    text-decoration: none; /* Removido sublinhado padrão de links */
+    color: white; /* Cor do ícone - você pode personalizar conforme sua preferência */
+    margin-bottom: 20px;
+  }
+  .shortcut-linkedin {
+    display: flex; /* Adicionado para centralizar o ícone horizontalmente */
+    align-items: center; /* Adicionado para centralizar o ícone verticalmente */
+    text-decoration: none; /* Removido sublinhado padrão de links */
+    color: white; /* Cor do ícone - você pode personalizar conforme sua preferência */
+    margin-bottom: 20px;
+  }
+  .shortcut-whatsapp {
+    display: flex; /* Adicionado para centralizar o ícone horizontalmente */
+    align-items: center; /* Adicionado para centralizar o ícone verticalmente */
+    text-decoration: none; /* Removido sublinhado padrão de links */
+    color: white; /* Cor do ícone - você pode personalizar conforme sua preferência */
+    margin-bottom: 20px;
+  }
+
+  .shortcut-github:hover {
+    color: rgb(138, 138, 138); /* Cor do ícone ao passar o mouse - você pode personalizar conforme sua preferência */
+  }
+  .shortcut-linkedin:hover {
+    color: rgb(56, 90, 163); /* Cor do ícone ao passar o mouse - você pode personalizar conforme sua preferência */
+  }
+  .shortcut-whatsapp:hover {
+    color: rgb(39, 233, 104); /* Cor do ícone ao passar o mouse - você pode personalizar conforme sua preferência */
+  }
+  
+  

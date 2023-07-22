@@ -1,0 +1,13 @@
+/* Main.css */
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center; /* Centralizar os botões horizontalmente */
+    margin-top: 1%;
+    margin-left: 75%;
+  }
+  
+  .navigation-buttons button {
+    margin: 0 10px; /* Adicionar espaçamento horizontal entre os botões (5px, por exemplo) */
+  }
+  

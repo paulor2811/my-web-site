@@ -1,7 +1,7 @@
 /* Button.css */
 
 .AboutMe-hover-button {
-    background-color: rgb(59, 142, 180);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -28,4 +28,7 @@
   .AboutMe-hover-button:hover::before {
     left: 100%;
   }
-  
+  .dark .AboutMe-hover-button {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+  }

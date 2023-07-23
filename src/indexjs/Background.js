@@ -1,10 +1,8 @@
-// Background.js
-
 import React from 'react';
 import '../indexcss/Background.css';
 
-const Background = () => {
-  return <div className="background" />;
+const Background = ({ darkTheme }) => {
+  return <div className={`background ${darkTheme ? 'dark' : 'light'}`} />;
 };
 
 export default Background;

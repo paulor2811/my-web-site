@@ -10,19 +10,19 @@
   
   .shortcut-github {
     text-decoration: none; /* Removido sublinhado padrão de links */
-    color: rgba(40, 88, 128, 0.651); /* Cor do ícone - você pode personalizar conforme sua preferência */
+    color: rgba(0, 0, 0, 0.651); /* Cor do ícone - você pode personalizar conforme sua preferência */
     margin-bottom: 20px;
     margin: 0 10px
   }
   .shortcut-linkedin {
     text-decoration: none; /* Removido sublinhado padrão de links */
-    color: rgba(40, 88, 128, 0.651); /* Cor do ícone - você pode personalizar conforme sua preferência */
+    color: rgba(0, 0, 0, 0.651); /* Cor do ícone - você pode personalizar conforme sua preferência */
     margin-bottom: 20px;
     margin: 0 10px
   }
   .shortcut-whatsapp {
     text-decoration: none; /* Removido sublinhado padrão de links */
-    color: rgba(40, 88, 128, 0.651); /* Cor do ícone - você pode personalizar conforme sua preferência */
+    color: rgba(0, 0, 0, 0.651); /* Cor do ícone - você pode personalizar conforme sua preferência */
     margin-bottom: 20px;
     margin: 0 10px
   }
@@ -36,4 +36,7 @@
   
   .shortcut-github:hover, .shortcut-linkedin:hover, .shortcut-whatsapp:hover {
     transform: scale(1.1); /* Aumenta o ícone em 10% ao passar o mouse */
+  }
+  .dark .shortcut-linkedin, .dark .shortcut-whatsapp, .dark .shortcut-github {
+    color: rgb(255, 255, 255);
   }

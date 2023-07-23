@@ -1,7 +1,7 @@
 /* ButtonContactMe.css */
 
 .ContactMe-hover-button {
-    background-color: rgb(59, 142, 180);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -27,5 +27,9 @@
   
   .ContactMe-hover-button:hover::before {
     left: 100%;
+  }
+  .dark .ContactMe-hover-button {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
   }
   

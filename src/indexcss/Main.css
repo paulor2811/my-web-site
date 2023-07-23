@@ -1,13 +1,56 @@
 /* Main.css */
 
+@font-face {
+  font-family: 'tittle-font';
+  src: url('../resources/ELEGANT TYPEWRITER Light.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.shadow-box::before {
+  content: '';
+  position: fixed;
+  bottom: 865px;
+  left: 0;
+  width: 1920px;
+  height: 90px;
+  background-color: rgba(183, 221, 221, 0.8);
+}
+.span-name {
+  position: fixed;
+  top: 27px;
+  left: 25px;
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  color: rgb(44, 113, 177, 0.712);
+}
 .navigation-buttons {
+    position: fixed;
     display: flex;
     justify-content: center; /* Centralizar os botões horizontalmente */
-    margin-top: 1%;
-    margin-left: 75%;
+    left: 1590px;
+    top: 25px;
   }
-  
   .navigation-buttons button {
     margin: 0 10px; /* Adicionar espaçamento horizontal entre os botões (5px, por exemplo) */
   }
-  
+  .content-about-name {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 4rem;
+    margin-top: 20px;
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 10px;
+    color: rgba(44, 113, 177, 0.712);
+  }
+  .content-about-description {
+    font-size: 1.5rem;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    color: rgba(36, 114, 177, 0.651);
+  }

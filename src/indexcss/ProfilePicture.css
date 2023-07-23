@@ -1,0 +1,13 @@
+/* ProfilePicture.css */
+
+.About-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  margin-top: 15%;
+}
+
+img {
+  width: 100px; /* Defina o tamanho da imagem conforme necessário */
+  border-radius: 50%; /* Isso dará um efeito arredondado à imagem */
+}

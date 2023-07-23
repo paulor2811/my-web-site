@@ -5,7 +5,7 @@ import '../indexcss/ButtonMyProjects.css';
 
 const ButtonMyProjects = ({ label }) => {
   return (
-    <button className="hover-button">
+    <button className="MyProjects-hover-button">
       {label}
     </button>
   );

@@ -1,11 +1,11 @@
 // ButtonContactMe.js
 
 import React from 'react';
-import '../indexcss/ButtonHome.css';
+import '../indexcss/ButtonContactMe.css';
 
 const ButtonContactMe = ({ label }) => {
   return (
-    <button className="hover-button">
+    <button className="ContactMe-hover-button">
       {label}
     </button>
   );

@@ -69,3 +69,17 @@
   .dark .content-about-description {
     color: rgb(255, 255, 255);
   }
+
+  .main.mobile .shadow-box::before {
+    width: 100%; /* Ajustar a largura para ocupar toda a largura do dispositivo */
+    bottom: 92.9%; /* Definir uma posição mais adequada na parte inferior do dispositivo */
+    height: 50px; /* Ajustar a altura para um tamanho mais apropriado */
+  }
+  .main.mobile .span-name {
+    display: none;
+  }
+  .main.mobile .navigation-buttons {
+    top: 12px;
+    left: 50%;
+    transform: translate(-50%);
+  }

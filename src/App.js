@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import './indexcss/Main.css';
 import Background from './indexjs/Background';
 import Theme from './indexjs/Theme';
@@ -9,10 +10,10 @@ import ButtonShortcut from './indexjs/ButtonShortcut';
 import ProfilePicture from './indexjs/ProfilePicture';
 
 const App = () => {
-  const [darkTheme, setDarkTheme] = useState(false); // Iniciar como claro (false)
+  const [darkTheme, setDarkTheme] = useState(true); // Iniciar como escuro (true)
 
   return (
-    <div className={`main ${darkTheme ? 'dark' : ''}`}>
+    <div className={`main ${darkTheme ? 'dark' : ''} ${isMobile ? 'mobile' : ''}`}>
       <Background darkTheme={darkTheme} />
       <Theme darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
       <div className="content">
